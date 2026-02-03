@@ -276,4 +276,5 @@ btn_pause.grid(row=0, column=2, padx=5)
 update_theme()
 
 # Запуск интерфейса
+
 root.mainloop()
