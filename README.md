@@ -1,32 +1,34 @@
-# AimBot For Valorant prefer or Game with the ability to track the enemys color
-A simple LMB autoclicker without targeting the enemy.
+# TriggerBot Для доблестных игроков в преферанс или игру с возможностью отслеживания цвета противника
+Простой автоматический кликер ЛКМ без наведения на врага.
 
-1. You need to purchase a module with "ATmega32u4" support, for example: "Arduino Pro Micro" or "Arduino Leonardo R3", and a cable for connecting the board to a computer.
+1. Вам необходимо приобрести модуль с поддержкой "ATmega32U4", например: "Arduino Pro Micro" или "Arduino Leonardo R3", и кабель для подключения платы к компьютеру.
 
-2. Install the program on your PC by downloading the appropriate file for your system from the link https://www.arduino.cc/en/software/
-Download a file from a project called "Arduino Sketch" in the "INO" format. Then, do the following:
+2. Установите программу на свой компьютер, загрузив соответствующий файл для вашей системы по ссылке https://www.arduino.cc/en/software/
+Загрузите файл из проекта под названием "Arduino Sketch" в формате "INO". Затем выполните следующие действия:
 
-2.1. Open the "Arduino IDE" program and install support through the "SparkFun AVR Boards" card manager ONLY IF YOU USE the "Arduino Pro Micro", but if you use the "Arduino Leonardo R3", it is already integrated into the program, you do not need to download anything, but if for some reason there is no manager responsible for the "Leonardo", it can be installed in the same way (here is its name "Arduino AVR Boards")
+2.1. Откройте программу "Arduino IDE" и установите поддержку через диспетчер плат "SparkFun AVR Boards" ТОЛЬКО В том СЛУЧАЕ, если ВЫ ИСПОЛЬЗУЕТЕ "Arduino Pro Micro", но если вы используете "Arduino Leonardo R3", то она уже интегрирована в программу, вам не нужно ничего скачивать, но если по какой-то причине нет менеджера, ответственного за "Леонардо", его можно установить таким же образом (вот его название "Платы Arduino AVR").
 
-2.2. Next, you need to connect the board to the computer and find the port responsible for the connected board in the program and activate it, check that the port is active. 
+2.2. Далее необходимо подключить плату к компьютеру и найти в программе порт, отвечающий за подключенную плату, и активировать его, убедившись, что порт активен. 
 
-2.3. Then open the "Arduino Sketch" file and upload it to the board. Make sure that there are no fatal errors and that the preparation of the board is completed. 
+2.3. Затем откройте файл "Arduino Sketch" и загрузите его на плату. Убедитесь, что нет фатальных ошибок и что подготовка платы завершена. 
 
-3. Then the most important thing is to download the installer in "Releases" and install it on your PC. 
+3. Затем самое главное - скачать установщик в разделе "Релизы" и установить его на свой ПК. 
 
-3.1. Follow the instructions of the installer and complete the installation. 
+3.1. Следуйте инструкциям установщика и завершите установку. 
 
-4. Run the program.
+4. Запустите программу.
 
-4.1. The interface is clear to anyone, you need to select the port to which the board is connected in the settings (the port that was in the "Arduino IDE" if you did not disconnect the board from the computer. 
+4.1. Интерфейс понятен любому, вам нужно в настройках выбрать порт, к которому подключается плата (тот порт, который был в "Arduino IDE", если вы не отключали плату от компьютера. 
 
-5. That's it, you have a fully working program for automatically pressing the "Fire" button when you aim at the enemy.
+5. Вот и все, у вас есть полностью работающая программа для автоматического нажатия кнопки "Огонь", когда вы целитесь во врага.
 
-6. In the "Valorant" settings, you need to set the color of the enemies to red (this way it contrasts better with the objects on the maps)
+6. В настройках "Доблестный" вам нужно установить цвет врагов на красный (так он лучше контрастирует с объектами на картах)
 
-P.S. The program works best on sniper weapons ("Marshall", "OutLaw", "Operator")
-But the program also works well on pistols (Best of all on "Ghost")
+P.S. Программа лучше всего работает со снайперским оружием ("Маршал", "Преступник", "Оператор").
+Но программа также хорошо работает на пистолетах (лучше всего на "Призраке")
 
-Good luck in the battles!
+Удачи в боях!
 
-Also, to simplify the work and the ability to use global keyboard shortcuts, the project has a regular python file (AimBotApp.py).
+Также, для упрощения работы и возможности использования глобальных сочетаний клавиш, в проекте есть обычный файл на python (AimBotApp.py).
+
+С последними версиями бота можно ознакомиться по ссылке в разделе релизы https://github.com/Gendalf1488/AimBot-For-Valorant-/releases
